@@ -1,22 +1,62 @@
 /* stylesheet : header -> logo , footer, container + responsive*/
-
-.tab{
-    font-size: 1.2rem;
-    color: var(--nav-tabs) ;
+* {
+    box-sizing: border-box;
 }
 
-.signup, .login, .send, .cancel {
-    background-color: var(--button-default);
-    border:none;
-    border-radius: 5px;
-    width: 120px;
-    padding: 0.25rem;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--text-font);
+    background-color: var(--background-color);
+}
+/* style :  header */
+
+
+
+
+
+
+
+
+
+
+
+
+/* sytle : footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* syles for background */
+    background-color: var(--secondary-color);
+    background-image: url("../images/header-bkg-test3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.hero-item, .hero-item ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 
-.signup:hover, .login:hover, .send:hover, .cancel:hover {
-    background-color: var(--button-hover);
+a{
+    text-decoration: none;
 }
-
-.signup:active, .login:active, .send:active, .cancel:active {
-    background-color: var(--button-onclick);
+.hero-item .logo {
+    width: 71px;
+    height: 70px;  
+}
+.hero-item img {
+    width: 40px; 
 }
