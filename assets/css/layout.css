@@ -1,1 +1,50 @@
 /* stylesheet : header -> logo , footer, container + responsive*/
+h2 {
+    font-size: 2.25rem;
+    font-family: 'Blacklisted', serif;
+    color: var(--titles);
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30rem;
+    background-color: var(--background);
+}
+
+.form-fields {
+    padding: 0.5rem 0 1rem 0;
+}
+
+.form-fields, .form-labels {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 30rem ;
+    background-color: var(--background);
+}
+
+.form-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 30rem ;
+    background-color: var(--background);
+    padding: 0.5rem 0 1rem 0;
+}
+
+.signup, .login, .send, .cancel {
+    background-color: var(--button-default);
+    border:none;
+    border-radius: 5px;
+    width: 120px;
+    padding: 0.25rem;
+}
+
+.signup:hover, .login:hover, .send:hover, .cancel:hover {
+    background-color: var(--button-hover);
+}
+
+.signup:active, .login:active, .send:active, .cancel:active {
+    background-color: var(--button-onclick);
+}
