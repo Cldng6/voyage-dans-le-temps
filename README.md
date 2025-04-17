@@ -161,3 +161,48 @@
         ├── Gestion tarifs
         ├── Gestion utilisateurs
         └── Configuration du site
+
+
+
+
+## Arborescence v2
+
+    Vayage-dans-le-temps
+    │
+    ├── css
+    │   ├── about.css
+    │   ├── attractions.css
+    │   ├── checkout.html
+    │   ├── contact.html
+    │   ├── forgot-password.html
+    │   ├── login.html
+    │   ├── news.html
+    │   ├── privacy-policy.html
+    │   ├── profile.html
+    │   ├── reset-password.html
+    │   ├── signup.html
+    │   └── terms.html
+    │
+    ├── images
+    │   ├── favicon
+    │   │   └──
+    │   │
+    │   └── logo
+    │       └──
+    │
+    ├── pages
+    │   ├── about
+    │   ├── attractions.html
+    │   ├── checkout.html
+    │   ├── contact.html
+    │   ├── forgot-password.html
+    │   ├── login.html
+    │   ├── news.html
+    │   ├── privacy-policy.html
+    │   ├── profile.html
+    │   ├── reset-password.html
+    │   ├── signup.html
+    │   └── terms.html
+    │
+    ├──README.md
+    └── index.html
