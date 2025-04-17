@@ -1,1 +1,28 @@
 /* stylesheet : header -> logo , footer, container + responsive*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    background-image: url("../images/header-bkg-test3.png");
+    background-repeat: no-repeat;
+}
+
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: var(--titles-font);
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}

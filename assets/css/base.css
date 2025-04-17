@@ -1,1 +1,57 @@
 /* Stylesheet : title, p, list, link, button, cartes, ul, li,*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'blacklisted';
+    src: url('./../font/Blacklisted.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root {
+    --button-default:#1c91c9;
+    --button-hover:#46c3e4;
+    --button-onclick:#1072a1;
+    --background:#fff3df;
+    --h1-h2-titles: #df984c;
+    --h3-headings: #f00;
+    --h4-subheadings:#800000;
+    --nav-tabs:#F9F4E6;
+    --p-font:#000000;
+    --p-contrast:#F9F4E6;
+
+    --text-font:poppins, serif ;
+    --titles-font: blacklisted, serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+    color: var(--h1-h2-titles);
+
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: var(--h1-h2-titles);
+    font-family: 'Celsius Flower', serif;
+    /* margin: 0.5rem 0 1rem 30rem; */
+
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: var(--h3-headings);
+
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--h4-subheadings);
+
+}
+
+p{
+    font-size: 1rem;
+    color: var(--p-font);
+}
+
