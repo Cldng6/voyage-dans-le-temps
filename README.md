@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-=======
-Page d'accueil, connexion, attractions, reservation
+# ->>> Page d'accueil, connexion, attractions, reservation
 
-
-
->>>>>>> 4c65178 (basic structure 2)
 # 🚨 Avertissement Équipe DEV !!!!
     🚨 ATTENTION ! Ce projet est collaboratif. Merci de respecter les consignes suivantes pour éviter tout conflit ou perte de données.
 
@@ -208,10 +203,7 @@ Page d'accueil, connexion, attractions, reservation
     │   ├── contact.html
     │   ├── forgot-password.html
     │   ├── login.html
-<<<<<<< HEAD
-=======
-            booking.html
->>>>>>> 4c65178 (basic structure 2)
+        ├── booking.html
     │   ├── news.html
     │   ├── privacy-policy.html
     │   ├── profile.html
@@ -221,3 +213,11 @@ Page d'accueil, connexion, attractions, reservation
     │
     ├──README.md
     └── index.html
+
+# feature branch
+
+    git fetch origin
+
+    git checkout -b feature-Cldng6-commit
+
+    git branch -a
