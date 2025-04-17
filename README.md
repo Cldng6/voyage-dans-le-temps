@@ -172,16 +172,16 @@
     ├── css
     │   ├── about.css
     │   ├── attractions.css
-    │   ├── checkout.html
-    │   ├── contact.html
-    │   ├── forgot-password.html
-    │   ├── login.html
-    │   ├── news.html
-    │   ├── privacy-policy.html
-    │   ├── profile.html
-    │   ├── reset-password.html
-    │   ├── signup.html
-    │   └── terms.html
+    │   ├── checkout.css
+    │   ├── contact.css
+    │   ├── forgot-password.css
+    │   ├── login.css
+    │   ├── news.css
+    │   ├── privacy-policy.css
+    │   ├── profile.css
+    │   ├── reset-password.css
+    │   ├── signup.css
+    │   └── terms.css
     │
     ├── images
     │   ├── favicon
