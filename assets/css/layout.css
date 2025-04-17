@@ -124,6 +124,22 @@ footer {
     width: 120px;
     padding: 0.25rem;
 }
+
+.signup:hover, .login:hover, .send:hover, .cancel:hover {
+    background-color: var(--button-hover);
+}
+
+.signup:active, .login:active, .send:active, .cancel:active {
+    background-color: var(--button-onclick);
+}
+
+.signup, .login, .send, .cancel {
+    background-color: var(--button-default);
+    border:none;
+    border-radius: 5px;
+    width: 120px;
+    padding: 0.25rem;
+}
 .hero-item, .hero-item ul {
     width: 100%;
     display: flex;
