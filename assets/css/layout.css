@@ -1,1 +1,6 @@
 /* stylesheet : header -> logo , footer, container + responsive*/
+
+.tab{
+    font-size: 1.2rem;
+    color: var(--nav-tabs) ;
+}
