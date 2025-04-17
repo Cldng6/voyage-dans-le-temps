@@ -1,22 +1,27 @@
 /* stylesheet : header -> logo , footer, container + responsive*/
 
-.tab{
+.tab {
     font-size: 1.2rem;
-    color: var(--nav-tabs) ;
+    color: var(--nav-tabs);
 }
 
-.signup, .login, .send, .cancel {
-    background-color: var(--button-default);
-    border:none;
-    border-radius: 5px;
+.btn-primary {
     width: 120px;
-    padding: 0.25rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color:var(--p-contrast);
+    background-color: var(--button-default);
+    border-radius: 5px;
+    border: none;
+    /* box-shadow: ; */
 }
 
-.signup:hover, .login:hover, .send:hover, .cancel:hover {
+.btn-primary:hover {
     background-color: var(--button-hover);
 }
 
-.signup:active, .login:active, .send:active, .cancel:active {
+.btn-primary:active {
     background-color: var(--button-onclick);
 }
