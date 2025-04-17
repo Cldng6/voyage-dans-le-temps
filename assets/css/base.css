@@ -4,10 +4,63 @@
     --button-hover:#46c3e4;
     --button-onclick:#1072a1;
     --background:#fff3df;
-    --titles: #df984c;
-    --headings: #f00;
-    --subheadings:#800000;
+    --h1-h2-titles: #df984c;
+    --h3-headings: #f00;
+    --h4-subheadings:#800000;
+    --nav-tabs:#F9F4E6;
+    --p-font:#000000;
+    --p-contrast:#F9F4E6;
+
+    --text-font:poppins, serif ;
+    --titles-font: blacklisted, serif;
 }
 
 @import url('https://fonts.cdnfonts.com/css/blacklisted');
 @import url('https://fonts.cdnfonts.com/css/poppins');
+
+h1 {
+    font-size: 2.6rem;
+    color: var(--h1-h2-titles);
+    font-family: var(--titles-font);
+
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: var(--h1-h2-titles);
+    font-family: var(--titles-font);
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: var(--h3-headings);
+    font-family: var(--titles-font);
+
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--h4-subheadings);
+    font-family: var(--titles-font);
+}
+
+p{
+    font-size: 1rem;
+    color: var(--p-font);
+    font-family: var(--text-font);
+}
+
+a {
+    color:var(--p-contrast);
+    font-size: 1rem;
+    font-family: var(--text-font);
+    text-decoration: none;
+}
+
+/* ul{
+
+}
+
+ol{
+
+} */
