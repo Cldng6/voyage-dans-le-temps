@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+Page d'accueil, connexion, attractions, reservation
+
+
+
+>>>>>>> 4c65178 (basic structure 2)
 # 🚨 Avertissement Équipe DEV !!!!
     🚨 ATTENTION ! Ce projet est collaboratif. Merci de respecter les consignes suivantes pour éviter tout conflit ou perte de données.
 
@@ -181,6 +188,10 @@
     │   ├── profile.css
     │   ├── reset-password.css
     │   ├── signup.css
+<<<<<<< HEAD
+=======
+            booking.css
+>>>>>>> 4c65178 (basic structure 2)
     │   └── terms.css
     │
     ├── images
@@ -197,6 +208,10 @@
     │   ├── contact.html
     │   ├── forgot-password.html
     │   ├── login.html
+<<<<<<< HEAD
+=======
+            booking.html
+>>>>>>> 4c65178 (basic structure 2)
     │   ├── news.html
     │   ├── privacy-policy.html
     │   ├── profile.html
