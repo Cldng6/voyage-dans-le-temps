@@ -55,11 +55,21 @@ header {
     width: 120px;
     padding: 0.25rem;
 }
-
-.signup:hover, .login:hover, .send:hover, .cancel:hover {
-    background-color: var(--button-hover);
+.hero-item, .hero-item ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 
-.signup:active, .login:active, .send:active, .cancel:active {
-    background-color: var(--button-onclick);
+a{
+    text-decoration: none;
+}
+.hero-item .logo {
+    width: 71px;
+    height: 70px;  
+}
+.hero-item img {
+    width: 40px; 
 }
