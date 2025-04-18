@@ -64,7 +64,7 @@ a {
 }
 
 form{
-    max-width: 100%;
+
 }
 
 label {
@@ -86,9 +86,27 @@ input {
     border-radius: 5px;
 }
 
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #1C91C9;
+    border: 2px solid #D1D1D1;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="checkbox"]:hover {
+    border-color: #46C3E4;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #1072A1 ;
+}
+
 textarea {
     width: 550px;
-    max-width: 94%;
+    max-width: 100%;
     resize:none;
     box-sizing: border-box;
     margin: 10px 0px 10px 0px;

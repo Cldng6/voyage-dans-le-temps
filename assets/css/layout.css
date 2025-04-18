@@ -1,10 +1,56 @@
-/* haeder, main, footer, grilles, positionnement des éléments majeurs, conteneurs, limites de largeur*/
+/* header, main, footer, grilles, positionnement des éléments majeurs, conteneurs, limites de largeur*/
 
 .tab {
     font-size: 1.2rem;
     color: var(--nav-tabs);
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/header-bkg-test3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-container{
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: var(--titles-font);
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.menu-header{
+    font-family: var(--text-font);
+    font-size: 1.2rem;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/***********************************************************************************************/
 .btn-primary {
     width: 180px;
     padding: 0.4rem;
@@ -28,7 +74,7 @@
 }
 
 .form-container{
-    width: 600px; /* Augmentation de la largeur (vous pouvez ajuster selon vos besoins) */
+    width: 600px;
     padding: 10px 0px 25px 20px;
     max-width: 100%;
     line-height: 2.1;
