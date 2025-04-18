@@ -10,7 +10,51 @@ body {
     background-color: var(--background-color);
 }
 /* style :  header */
+/* stylesheet : header -> logo , footer, container + responsive*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/header-bkg-test3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.logo-container{
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: var(--titles-font);
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.menu-header{
+    font-family: var(--text-font);
+    font-size: 1.2rem;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
 
 
 
