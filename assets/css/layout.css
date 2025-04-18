@@ -56,16 +56,6 @@ header {
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* sytle : footer */
 footer {
     width: 100%;
@@ -103,4 +93,31 @@ a{
 }
 .hero-item img {
     width: 40px; 
+}
+/* stylesheet : header -> logo , footer, container + responsive*/
+
+.tab {
+    font-size: 1.2rem;
+    color: var(--nav-tabs);
+}
+
+.btn-primary {
+    width: 150px;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color:var(--p-contrast);
+    background-color: var(--button-default);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.7);
+}
+
+.btn-primary:hover {
+    background-color: var(--button-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--button-onclick);
 }
