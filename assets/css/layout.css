@@ -1,4 +1,4 @@
-/* stylesheet : header -> logo , footer, container + responsive*/
+/* haeder, main, footer, grilles, positionnement des éléments majeurs, conteneurs, limites de largeur*/
 
 .tab {
     font-size: 1.2rem;
@@ -6,10 +6,11 @@
 }
 
 .btn-primary {
-    width: 150px;
+    width: 180px;
     padding: 0.4rem;
     font-size: 1rem;
     font-weight: 300;
+    text-align: center;
     text-decoration: none;
     color:var(--p-contrast);
     background-color: var(--button-default);
@@ -24,4 +25,19 @@
 
 .btn-primary:active {
     background-color: var(--button-onclick);
+}
+
+.form-container{
+    width: 600px; /* Augmentation de la largeur (vous pouvez ajuster selon vos besoins) */
+    padding: 10px 0px 25px 20px;
+    max-width: 100%;
+    line-height: 2.1;
+    background-color:#FFF3DF ;
+    border: 1px solid #00000036;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
