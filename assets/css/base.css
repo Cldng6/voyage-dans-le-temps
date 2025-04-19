@@ -24,30 +24,30 @@
     --titles-font: blacklisted, serif;
 }
 
+h1, h2, h3, h4 {
+    font-family: var(--titles-font);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 h1 {
     font-size: 2.6rem;
     color: var(--h1-h2-titles);
-    font-family: var(--titles-font);
-
 }
 
 h2 {
     font-size: 2.25rem;
     color: var(--h1-h2-titles);
-    font-family: var(--titles-font);
 }
 
 h3 {
     font-size: 1.6rem;
     color: var(--h3-headings);
-    font-family: var(--titles-font);
-
 }
 
 h4 {
     font-size: 1.4rem;
     color: var(--h4-subheadings);
-    font-family: var(--titles-font);
 }
 
 p {
@@ -58,13 +58,7 @@ p {
 
 a {
     color:var(--p-contrast);
-    font-size: 0.8rem;
-    font-family: var(--text-font);
     text-decoration: none;
-}
-
-form{
-
 }
 
 label {
@@ -74,15 +68,18 @@ label {
     font-weight: 350;
 }
 
-input {
+input, textarea {
     width: 550px;
     max-width: 100%;
-    margin: 0px 0px 6px 0px;
-    padding: 5px 5px 5px 5px;
     color: var(--p-font);
     font-size: 0.8rem;
     font-family: var(--text-font);
     border: 1px solid #D1D1D1;
+}
+
+input {
+    margin: 0px 0px 6px 0px;
+    padding: 5px 5px 5px 5px;
     border-radius: 5px;
 }
 
@@ -105,23 +102,9 @@ input[type="checkbox"]:checked {
 }
 
 textarea {
-    width: 550px;
-    max-width: 100%;
+    margin: 10px 0px 10px 0px;
     resize:none;
     box-sizing: border-box;
-    margin: 10px 0px 10px 0px;
-    color: var(--p-font);
-    font-size: 0.8rem;
-    font-family: var(--text-font);
-    border: 1px solid #D1D1D1;
-}
-
-ul{
-
-}
-
-ol{
-
 }
 
 
